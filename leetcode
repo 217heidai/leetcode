@@ -53,6 +53,7 @@ class Solution(object):
     输出：7 -> 0 -> 8
     原因：342 + 465 = 807
     """
+    @performance
     def addTwoNumbers(self, l1, l2):
         """
         :type l1: ListNode
