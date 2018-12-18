@@ -70,7 +70,7 @@ class Solution(object):
         while(True):
             a = (cur1.val + cur2.val + b)%10
             b = (cur1.val + cur2.val + b)/10
-            print "cur1:%d, cur2:%d, a:%d, b:%d" % (cur1.val, cur2.val, a, b)
+            #print "cur1:%d, cur2:%d, a:%d, b:%d" % (cur1.val, cur2.val, a, b)
             if l3 == None:
                 l3 = ListNode(a)
                 cur3 = l3
@@ -96,15 +96,17 @@ if __name__ == '__main__':
         while( lc != None):
             print lc.val
             lc = lc.next
-            
+
     l1 = ListNode(3)
     l1.next = ListNode(4)
     l1.next.next = ListNode(2)
+
     l2 = ListNode(4)
     l2.next = ListNode(6)
     l2.next.next = ListNode(5)
-    print_list(l1)
-    print_list(l2)
+
+    #print_list(l1)
+    #print_list(l2)
     solution = Solution()
     lc = solution.addTwoNumbers(l1, l2)
     print_list(lc)
