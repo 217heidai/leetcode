@@ -13,6 +13,7 @@ def performance(f):
         return r
     return fn
 
+
 class Solution(object):
     """
     给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。
@@ -40,15 +41,15 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-        def GetMaxLen(s):
+        def GetMaxLen(s): # 字符串中所有不重复字符的最大长度
             return len(set(s))
-        MaxLen = GetMaxLen(s)
-        max = 0
+        MaxLen = GetMaxLen(s)  # 字符串中所有不重复字符的最大长度
+        max = 0 # 最大不重复字符串长度
         L = list(s)
-        tmp = []
-        start = 0
+        tmp = [] # 缓存list
+        start = 0 # 起始位，记录从哪个字符开始比较
         i = start
-        restart = True
+        restart = True # 重新对比标识
         while(i < len(L)):
             #print "L[%d]:%s" % (i, L[i])
             if L[i] in tmp: # 出现重复字符
@@ -59,7 +60,7 @@ class Solution(object):
                     if (len(L) - start) <= max: # 剩余数据不足max长度，无需再比较
                         #print "aaaai:%d, start:%d, max:%d, tmp:%s" % (i, start, max, ",".join(tmp))
                         break
-                    else:
+                    else: # 重新比较
                         tmp = []
                         restart = True
                         i = start
@@ -69,13 +70,13 @@ class Solution(object):
                     if (len(L) - start) <= max: # 剩余数据不足max长度，无需再比较
                         #print "cccci:%d, start:%d, max:%d, tmp:%s" % (i, start, max, ",".join(tmp))
                         break
-                    else:
+                    else: # 重新比较
                         tmp = []
                         restart = True
                         i = start
                         #print "ddddi:%d, start:%d, max:%d, tmp:%s" % (i, start, max, ",".join(tmp))
                         continue
-            else:
+            else: # 将L[i]加到缓存tmp中
                 if restart:
                     start = i + 1
                     restart = False
