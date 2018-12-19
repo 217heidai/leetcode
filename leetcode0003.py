@@ -13,12 +13,6 @@ def performance(f):
         return r
     return fn
 
-# Definition for singly-linked list.
-class ListNode(object):
-    def __init__(self, x):
-        self.val = x
-        self.next = None
-
 class Solution(object):
     """
     给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。
