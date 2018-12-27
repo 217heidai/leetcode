@@ -11,3 +11,4 @@ Python
 | 4 | [寻找两个有序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) | 困难 | [点这里](https://github.com/217heidai/leetcode/blob/master/leetcode0004.py) |
 | 5 | [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | 中等 | [点这里](https://github.com/217heidai/leetcode/blob/master/leetcode0005.py) |
 | 6 | [Z字形变换](https://leetcode-cn.com/problems/zigzag-conversion/) | 中等 | [点这里](https://github.com/217heidai/leetcode/blob/master/leetcode0006.py) |
+| 7 | [整数反转](https://leetcode-cn.com/problems/reverse-integer/) | 简单 | [点这里](https://github.com/217heidai/leetcode/blob/master/leetcode0007.py) |
