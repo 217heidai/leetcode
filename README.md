@@ -13,3 +13,4 @@ Python
 | 6 | [Z字形变换](https://leetcode-cn.com/problems/zigzag-conversion/) | 中等 | [点这里](https://github.com/217heidai/leetcode/blob/master/leetcode0006.py) |
 | 7 | [整数反转](https://leetcode-cn.com/problems/reverse-integer/) | 简单 | [点这里](https://github.com/217heidai/leetcode/blob/master/leetcode0007.py) |
 | 8 | [字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/) | 中等 | [点这里](https://github.com/217heidai/leetcode/blob/master/leetcode0008.py) |
+| 9 | [回文数](https://leetcode-cn.com/problems/palindrome-number/) | 简单 | [点这里](https://github.com/217heidai/leetcode/blob/master/leetcode0009.py) |
