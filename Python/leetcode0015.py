@@ -50,10 +50,9 @@ class Solution(object):
                     j += 1
                 else:
                     if (j > i+1) and (nums[j] == nums[j - 1]): # 不重复
-                        k -= 1
-                        j += 1
-                        continue
-                    L.append([nums[i], nums[j], nums[k]])
+                        pass
+                    else:
+                        L.append([nums[i], nums[j], nums[k]])
                     k -= 1
                     j += 1
 
