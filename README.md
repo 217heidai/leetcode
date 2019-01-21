@@ -22,3 +22,4 @@ Python
 | 15 | [三数之和](https://leetcode-cn.com/problems/3sum/) | 中等 | [点这里](https://github.com/217heidai/leetcode/blob/master/Python/leetcode0015.py) |
 | 16 | [最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest/) | 中等 | [点这里](https://github.com/217heidai/leetcode/blob/master/Python/leetcode0016.py) |
 | 17 | [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | 中等 | [点这里](https://github.com/217heidai/leetcode/blob/master/Python/leetcode0017.py) |
+| 18 | [四数之和](https://leetcode-cn.com/problems/4sum/) | 中等 | [点这里](https://github.com/217heidai/leetcode/blob/master/Python/leetcode0018.py) |
