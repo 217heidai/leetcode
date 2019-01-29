@@ -25,3 +25,4 @@ Python
 | 18 | [四数之和](https://leetcode-cn.com/problems/4sum/) | 中等 | [点这里](https://github.com/217heidai/leetcode/blob/master/Python/leetcode0018.py) |
 | 19 | [删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | 中等 | [点这里](https://github.com/217heidai/leetcode/blob/master/Python/leetcode0019.py) |
 | 20 | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | 简单 | [点这里](https://github.com/217heidai/leetcode/blob/master/Python/leetcode0020.py) |
+| 21 | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | 简单 | [点这里](https://github.com/217heidai/leetcode/blob/master/Python/leetcode0021.py) |
