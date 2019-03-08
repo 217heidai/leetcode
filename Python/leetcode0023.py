@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- encoding=utf-8 -*- s
 # 文件名：leetcode0023.py
 
@@ -61,27 +61,34 @@ class Solution(object):
 
 
 if __name__ == '__main__':
+    def CreatListNode(values):
+        if len(values) < 1:
+            return None
+        head = ListNode(values[0])
+        node = head
+        for i in range(1,len(values)):
+            node.next = ListNode(values[i])
+            node = node.next
+        node.next = None
+        return head
+    
     def PrintListNode(ln):
         disp = ''
         while(ln != None):
             disp += "%d->" % (ln.val)
             ln = ln.next
         print("%s" % (disp[:-2]))
+    
     lists = []
-    l1 = ListNode(1)
-    l1.next = ListNode(4)
-    l1.next.next = ListNode(5)
+    l1 = CreatListNode((1,4,5))
     PrintListNode(l1)
     lists.append(l1)
     
-    l2 = ListNode(1)
-    l2.next = ListNode(3)
-    l2.next.next = ListNode(4)
+    l2 = CreatListNode((1,3,4))
     PrintListNode(l2)
     lists.append(l2)
     
-    l3 = ListNode(2)
-    l3.next = ListNode(6)
+    l3 = CreatListNode((2,6))
     PrintListNode(l3)
     lists.append(l3)
 
