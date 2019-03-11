@@ -28,3 +28,4 @@ Python
 | 21 | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | 简单 | [点这里](https://github.com/217heidai/leetcode/blob/master/Python/leetcode0021.py) |
 | 22 | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/) | 中等 | [点这里](https://github.com/217heidai/leetcode/blob/master/Python/leetcode0022.py) |
 | 23 | [合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | 困难 | [点这里](https://github.com/217heidai/leetcode/blob/master/Python/leetcode0023.py) |
+| 24 | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | 中等 | [点这里](https://github.com/217heidai/leetcode/blob/master/Python/leetcode0024.py) |
