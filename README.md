@@ -1,4 +1,4 @@
-# LeetCode题库练习
+# LeetCode算法题库练习
 [LeetCode中国](https://leetcode-cn.com/problemset/algorithms/)
 # 语言
 Python
