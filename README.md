@@ -3,7 +3,7 @@
 # 语言
 Python
 # 题库
-| 序号 | 题号 | 题目 | 难度 | 代码 |
+| 序号 | LeetCode题号 | 题目 | 难度 | 代码 |
 | --- | --- | --- | --- | --- |
 | 1 | 2 | [两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | 中等 | [点这里](https://github.com/217heidai/leetcode/blob/master/Python/leetcode0002.py) |
 | 2 | 3 | [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | 中等 | [点这里](https://github.com/217heidai/leetcode/blob/master/Python/leetcode0003.py)|
